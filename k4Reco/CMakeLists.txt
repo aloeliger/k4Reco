@@ -32,6 +32,11 @@ set(sources
   GaudiLumiCalClusterer/src/LCCluster.cpp
   GaudiLumiCalClusterer/src/SuperTrueClusterWeights.cpp
   GaudiLumiCalClusterer/src/ProjectionInfo.cpp
+  Overlay/components/OverlayTimingRandomMix.cpp
+  CaloDigi/src/RealisticCaloDigiScinPpd.cc
+  CaloDigi/src/RealisticCaloDigiSilicon.cc
+  CaloDigi/src/RealisticCaloRecoScinPpd.cc
+  CaloDigi/src/RealisticCaloRecoSilicon.cc
 )
 
 set(libs
